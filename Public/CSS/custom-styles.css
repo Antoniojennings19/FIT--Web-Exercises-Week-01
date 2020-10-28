@@ -1,0 +1,111 @@
+
+h1{
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 46px;
+    margin-top: 0px; 
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+* {
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Courgette', cursive;
+}
+
+html,
+body{
+    height: auto;
+    background-color: #ffffff;
+}
+
+
+p{
+    color: white;
+}
+
+.btn-shop{
+        float: left;;
+        margin: auto;
+        margin-left: 10%;
+        padding: 7px 45px 7px 45px;
+        font-weight: bold;
+        border: none;
+        background-color: black;
+}
+
+.cart{
+    height: 80px;
+}
+
+.background-image{
+    background-image: linear-gradient(#112121, #116161, #142929);
+}
+
+.gradient1,
+.gradient2,
+.gradient3{
+    width: 290px;
+    height: 337px;
+    box-shadow: 5px 4px 10px 0px rgba(0, 0, 0, 0.45)
+}
+
+.gradient1 > img,
+.gradient2 > img,
+.gradient3 > img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.gradient1{
+    background-image: linear-gradient(#112121, #116161, #142929);
+}
+
+.gradient2{
+    background-image: linear-gradient(#112121, #116161, #142929);
+}
+
+.gradient3{
+    background-image: linear-gradient(#112121, #116161, #142929);
+}
+
+.header-title{
+    background-color: Black;
+    color:white; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-add-cart{
+    background-color: black;
+    font-size: 12px;
+    border: none;
+}
+
+.page-footer{
+        background-color: #547878;
+        height: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
+.btn-contact{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+}

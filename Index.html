@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<!-- Links  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='./Public/CSS/custom-styles.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<!-- Links -->
+
+<!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Scripts -->
+
 <!-- meta tags  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
 <!-- meta tags -->
+<style>
+
+</style>
+
+<title>Document</title>
 </head>
 <body>
 <!-- Navbar -->
-    <div>
-        <button>Shop</button>
-        <img src='./Public/Images/Kirito.png'>
+    <div class='background-image' style='position: sticky;'>
+        <button class='btn-shop btn btn-primary'>Shop</button>
         <h1>Anime Phone Cases</h1>
-        <img src='./Public/Images/Shopping-Cart-White.png'>
-        <img src='./Public/Images/Lurk.png'>
+        <img class='cart'style='float: right;
+        margin-top: 15px;
+        margin-right: 100px;
+        cursor: pointer;'
+        src='./Public/Images/WhiteShoppingCart.png'>
+
+        <img src='./Public/Images/Kirito.png'>
+
         <hr>
     </div>
 <!-- Welcome Message -->
 <div>
+    <img src='./Public/Images/Lurk.png'>
     <h2>Reasons To Buy Cases:</h2>
         <ul>
             <li>Cases last very long</li>
@@ -29,7 +53,7 @@
 
 <div>
     <h2>Mission Statement:</h2>
-    <p>To build and provide phone cases to the weebies</p>
+    <p style='color: black;'>To build and provide phone cases to the weebies</p>
 </div>
 
 <hr>
@@ -38,31 +62,31 @@
 <!-- Product Container -->
     <div>
     <!-- Product 1 -->
-        <div>
-            <p>Zero Two Phone Case</p>
-            <p>Iphone 11</p>
+        <div class='gradient1'>
+            <p class='header-title'>Zero Two Phone Case</p>
+            <p class='center-text'>Iphone 11</p>
             <img src='./Public/Images/Zero.png'>
-            <button>Add To Cart | 20.00</button>
+            <button class='btn-add-cart btn btn-primary'>Add To Cart | 20.00</button>
         </div><br>
     <!-- Product 1 -->
 
     <div>
         <!-- Product 2 -->
-            <div>
-                <p>Tokyo Ghoul Phone Case</p>
-                <p>Iphone 11</p>
-                <img src='./Public/Images/Tokyo.png'>
-                <button>Add To Cart | $15.00</button>
+            <div class='gradient2'>
+                <p class='header-title'>Tokyo Ghoul Phone Case</p>
+                <p class='center-text'>Iphone 11</p>
+                <img src='./Public/Images/TokyoGhoul.png'>
+                <button class='btn-add-cart btn btn-primary'>Add To Cart | $15.00</button>
             </div><br>
         <!-- Product 2 -->
 
         <div>
             <!-- Product 3 -->
-                <div>
-                    <p>Exorcist Phone Case</p>
-                    <p>Iphone 8</p>
+                <div class='gradient3'>
+                    <p class='header-title'>Exorcist Phone Case</p>
+                    <p class='center-text'>Iphone 8</p>
                     <img src='./Public/Images/Exorcist.png'>
-                    <button>Add To Cart | $35.00</button>
+                    <button class='btn-add-cart btn btn-primary'>Add To Cart | $35.00</button>
                 </div><br>
             <!-- Product 3 -->
     </div>
@@ -71,8 +95,8 @@
 <!-- Trending Products -->
 
 <!-- Footer -->
-    <div>
-        <button>Contact Us</button>
+    <div class='page-footer'>
+        <button class='btn-contact btn btn-primary'>Contact Us</button>
     </div>
 </body>
 </html>
