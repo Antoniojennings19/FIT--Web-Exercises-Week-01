@@ -217,7 +217,7 @@ p{
 }
 
 .page-footer-grid{
-    background-color: #547878;
+    background-image: linear-gradient(#112121, #116161, #142929);
     height: auto;
     padding-top: 15px;
     padding-bottom: 107px;
